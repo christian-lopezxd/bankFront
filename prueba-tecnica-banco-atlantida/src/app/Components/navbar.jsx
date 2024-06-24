@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function NavBar() {
   return (
     <div className='w-full bg-primary h-[10vh] flex flex-row items-center'>
