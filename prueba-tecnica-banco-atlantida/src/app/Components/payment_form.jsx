@@ -1,7 +1,8 @@
+import React from 'react'
 import Link from 'next/link';
-import React from 'react';
 
-function PurchaseForm() {
+
+function PaymentForm() {
   return (
     <form className="w-1/2 flex flex-col gap-6 justify-center p-6 bg-white rounded-lg shadow-xl">
       <div className="flex flex-col">
@@ -11,17 +12,6 @@ function PurchaseForm() {
           type="date"
           name="purchase_date"
           max={new Date().toISOString().split('T')[0]}
-          className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-        />
-      </div>
-
-      <div className="flex flex-col">
-        <label className="mb-2 font-semibold text-gray-700">Descripción:</label>
-        <input
-        required
-          type="text"
-          name="description"
-          minLength={10}
           className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
         />
       </div>
@@ -52,7 +42,7 @@ function PurchaseForm() {
         </Link>
       </div>
     </form>
-  );
+  )
 }
 
-export default PurchaseForm;
+export default PaymentForm
