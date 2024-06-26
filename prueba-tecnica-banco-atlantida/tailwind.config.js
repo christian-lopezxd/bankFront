@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}", // Incluye todas las subcarpetas y archivos bajo src
   ],
   theme: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+    },
     extend: {
       colors: {
         primary: '#d22730',
@@ -16,6 +19,10 @@ module.exports = {
         quaternaryDark: '#2a0874',
         quinary: '#4361ee',
         quinaryDark: '#2b44c0',
+        //green excel
+        green: '#1d6a3f',
+        greenDark: '#14502c',
+       
       },
     },
   },

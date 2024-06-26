@@ -1,4 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+@layer utilities {
+    .loader {
+      @apply border-t-transparent animate-spin;
+    }
+  
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  
+  
+
+body {
+  @apply font-sans;
+}
