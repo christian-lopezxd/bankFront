@@ -1,4 +1,4 @@
-# Pagina web Banco Atlantida 
+# Pagina Web para banco
 Este proyecto es una pagina web creada en Next Js con ayuda de Tailwind CSS
 
 ## Requisitos
